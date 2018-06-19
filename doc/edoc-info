@@ -1,0 +1,5 @@
+%% encoding: UTF-8
+{application,exercism}.
+{modules,[bob,bob_tests,collatz_conjecture,collatz_conjecture_tests,
+          exercism_app,exercism_sup,raindrops,raindrops_tests,
+          rna_transcription,rna_transcription_tests,strain,strain_tests]}.

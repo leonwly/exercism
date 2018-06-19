@@ -1,0 +1,12 @@
+{application, exercism,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { exercism_app, []}},
+  {env, []}
+ ]}.
